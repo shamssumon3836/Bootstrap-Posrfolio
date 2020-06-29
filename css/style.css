@@ -1,0 +1,123 @@
+    /* --//=== Global Css==//-- */
+    html{
+    	scroll-behavior: smooth;
+    }
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	body{
+		font-family: sans-serif;
+	}
+	[id*=""-error]{
+      color: yellow;
+      float: left;
+      margin-top: -10px;
+    }
+	section{
+      padding-top: 100px;
+      padding-bottom: 75px;
+    }
+	
+	/*--//=== Nav Bar Part ==//--*/
+	.navbar-brand img {
+		width: 39%;
+	}
+	#main-nav ul>li>a.active{
+      background-color: black;
+    }
+	.bg-transparent-dark{
+      background-color: #343a4099;
+    }
+    /*--//=== Modal ==//--*/
+	.modal-dialog {
+		max-width: 280px;
+		margin: 1.75rem auto;
+	}
+	.modal-backdrop.fade.show {
+	 	 position: inherit;
+	 }
+	 .modal{
+	 	top: 100px;
+	 }
+    /*--//=== Home Part ==//--*/
+    #home{
+      background-image: url(../images/bg5.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+	
+    /*--//=== Service part ==//--*/
+    .bg-transparent-white{
+      background-color: #ffffff5c;
+    }
+    #services{
+      background-image: linear-gradient(189deg, rgba(2, 1, 21, 0.32) 0%, rgba(0, 0, 0, 0.78) 100%, rgb(0, 0, 0) 100%), url(../images/services.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    /*--//=== Service Modal ==//--*/
+	.lb-close {
+    top: 0;
+    position: absolute;
+    display: inline !important;
+    margin: -35px 0px;
+    }
+    /*--//=== Project part ==//--*/
+    .top-auto{
+      top: auto;
+    }
+    /*--//=== Review part ==//--*/
+    #review{
+      background-image: linear-gradient(189deg, rgba(1, 0, 13, 0.69) 0%, rgba(4, 2, 34, 0.66) 100%, rgb(68, 0, 255) 100%),url(../images/review.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+    }
+    /*--//=== Contact part ==//--*/
+    #contact{
+      background-image: linear-gradient(189deg, rgba(2, 1, 21, 0.32) 0%, rgba(0, 0, 0, 0.78) 100%, rgb(0, 0, 0) 100%),url(../images/computer2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    /*--//=== Footer part ==//--*/
+    #social-link ul>li{
+      margin-right: 12px;
+    }
+    #social-link ul>li>a {
+    height: 2.4rem;
+    width: 2.5rem;
+    }
+    #upper {
+    position: fixed;
+    height: 40px;
+    width: 45px;
+    right: 25px;
+    bottom: 25px;
+    background-color: #216fe2;
+    padding-top: 8px;
+    text-align: center;
+    border-radius: 5% 40%;
+  	}
+  	#upper i{
+      font-size: 1rem;
+      color: white;
+  	}
+  	#upper a{
+      text-align: center;
+  	}
+
+
+/*------///////------========= Mobile Device view ------///////------=========*/
+  	@media (max-width: 576px){
+      .h5-sm{
+        font-size: 1.25rem;
+      }
+      .h5-sm{
+        font-size: 1rem;
+      }
+    }
